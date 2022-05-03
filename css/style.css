@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: lightblue-100;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.text_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    flex-direction: column;
+
+}
+.text_area p{
+    font-size: 1.5rem;
+}
+.text_area img{
+    margin: 10px auto;
+    display: inline-block;
+}
+#text_input{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}   
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px auto;
+    flex-direction: column;
+         
+}
+
+.buttons .encrip{
+    margin: 10px auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.buttons .uncrip{
+    margin: 10px auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.copy{
+    margin: 10px auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+
+.results{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+    flex-direction: column;
+}
+
+#results{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
